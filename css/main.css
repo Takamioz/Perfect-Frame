@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap");
+.card-img-top:hover {
+  animation: move 2s infinite ease-in-out; }
+
+@keyframes move {
+  0% {
+    transform: scale(1) rotate(0deg); }
+  100% {
+    transform: scale(1.1) rotate(0.1deg); } }
+
+* {
+  font-family: 'comfortaa', sans-serif !important; }
+
+.bordo-fondo {
+  background-color: #73171F !important; }
+
+.bordo-color {
+  color: #73171F !important; }
+
+.rojizo {
+  background-color: #F291A3 !important; }
+
+.blanco {
+  color: #F2F2F2 !important; }

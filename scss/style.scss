@@ -1,0 +1,23 @@
+@import "animaciones.scss";
+@import "colores.scss";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
+* { 
+    font-family: 'comfortaa', sans-serif !important;
+}
+
+.bordo-fondo {
+    background-color: $bordo !important;
+}
+
+.bordo-color {
+    color: $bordo !important;
+}
+
+.rojizo {
+    background-color: $rojizo !important;
+}
+
+.blanco {
+    color: $blanco !important;
+}

@@ -1,0 +1,18 @@
+@mixin animation ($animation) {
+    animation: $animation;
+}
+
+.card-img-top:hover{
+    @include animation (move 2s infinite ease-in-out);
+}
+
+@keyframes move{
+    0% {
+ transform: scale(1) rotate(0deg);
+}
+    100% {
+   transform: scale(1.1) rotate(0.1deg);
+
+}
+
+}
